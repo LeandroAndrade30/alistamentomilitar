@@ -26,7 +26,7 @@ int main()
   scanf(" %c", &alistamento.sexo);
   printf("\nNome: %s\n", alistamento.nome);
   printf("Altura: %.2f\n", alistamento.altura);
-  printf("Iddae: %d\n", alistamento.idade);
+  printf("Idade: %d\n", alistamento.idade);
   printf("Sexo: %c\n", alistamento.sexo);
 
   if(alistamento.idade >=18 && alistamento.sexo == 'M' ||alistamento.sexo=='m' && alistamento.altura >=1.75)
